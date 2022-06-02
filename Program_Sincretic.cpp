@@ -23,6 +23,9 @@ while (numar%divizor == 0)
 		}
 //daca <divizorul> se imparte macar o data la <numar> se afiseaza <divizor>, alaturi de puterea la care apare in descompunere
 //daca <putere> este 0 inseamna ca <divizor> nu se imparte deloc la <numar>
+if (putere > 0)
+			cout << divizor << "^" << putere << " ";
+		divizor = divizor + 1; //<divizor> se mareste cu 1, pentru a putea identifica si alti factori primi ai descompunerii
 
 }
 
