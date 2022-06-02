@@ -13,6 +13,10 @@ int main(){
 	divizor = 2;
 //se determina daca numarul are divizori proprii
 	while (numar > 1){
+putere = 0;//puterea este initializata cu 0, pentru ca de fiecare data cand se reia instructiunea while sa se
+		// poata determina puterea la care apare factorul prim
+		//se verifica daca numarul se imparte de mai multe ori la <divizor>
+
 
 }
 
