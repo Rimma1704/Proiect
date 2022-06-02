@@ -6,5 +6,9 @@ using namespace std;
 //variabila putere memoreaza puterea la care apare un factor prim
 int numar, divizor, putere;
 int main(){
+//se citeste de la tastatura numarul 
+	cout << "Introduceti numarul : ";
+	cin >> numar;
+
 
 }
