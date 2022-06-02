@@ -5,3 +5,6 @@ using namespace std;
 //variabila divizor este folosita pentru a identifica daca numar are divizori proprii
 //variabila putere memoreaza puterea la care apare un factor prim
 int numar, divizor, putere;
+int main(){
+
+}
