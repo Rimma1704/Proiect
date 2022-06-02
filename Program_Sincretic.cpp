@@ -16,7 +16,11 @@ int main(){
 putere = 0;//puterea este initializata cu 0, pentru ca de fiecare data cand se reia instructiunea while sa se
 		// poata determina puterea la care apare factorul prim
 		//se verifica daca numarul se imparte de mai multe ori la <divizor>
-
+while (numar%divizor == 0)
+		{
+			putere++; //se contorizeaza puterea la care apare factorul prim in descompunere
+			numar = numar / divizor; //se imparte <numar> la <divizor> pentru a se putea continua impartirea si identificarea puterii
+		}
 
 }
 
