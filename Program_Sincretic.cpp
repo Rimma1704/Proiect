@@ -11,6 +11,9 @@ int main(){
 	cin >> numar;
 //variabila <divizor> este initializata cu 2 (primul posibil divizor propriu)
 	divizor = 2;
+//se determina daca numarul are divizori proprii
+	while (numar > 1){
 
+}
 
 }
