@@ -9,6 +9,8 @@ int main(){
 //se citeste de la tastatura numarul 
 	cout << "Introduceti numarul : ";
 	cin >> numar;
+//variabila <divizor> este initializata cu 2 (primul posibil divizor propriu)
+	divizor = 2;
 
 
 }
