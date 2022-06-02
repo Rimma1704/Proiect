@@ -21,6 +21,8 @@ while (numar%divizor == 0)
 			putere++; //se contorizeaza puterea la care apare factorul prim in descompunere
 			numar = numar / divizor; //se imparte <numar> la <divizor> pentru a se putea continua impartirea si identificarea puterii
 		}
+//daca <divizorul> se imparte macar o data la <numar> se afiseaza <divizor>, alaturi de puterea la care apare in descompunere
+//daca <putere> este 0 inseamna ca <divizor> nu se imparte deloc la <numar>
 
 }
 
